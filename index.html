@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Render JSON as HTML Table</title>
+  <script type="module">
+    import json2html from 'https://your-username.github.io/your-repo/json2html.js';
+    
+    // Example data
+    const data = [
+      { Name: "Alice", Age: 25 },
+      { Name: "Bob", Age: 30 },
+      { Name: "Charlie", Age: 35, Gender: "M" }
+    ];
+    
+    // Call the function and insert the result into the HTML body
+    document.body.innerHTML = json2html(data);
+  </script>
+</head>
+<body>
+</body>
+</html>
